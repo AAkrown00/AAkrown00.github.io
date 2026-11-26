@@ -4,11 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Omar Ashraf | IT and Software Solutions Specialist</title>
+<meta name="description" content="Portfolio of Omar Ashraf. IT and software solutions. Zonko and web projects. English and Arabic.">
+<meta property="og:title" content="Omar Ashraf | IT and Software Solutions Specialist">
+<meta property="og:description" content="Portfolio of Omar Ashraf. IT and software solutions. English and Arabic.">
 <style>
 :root{--bg:#0b0b0d;--card:#16161a;--tx:#f2f2f2;--mut:#a9a9b3;--ac:#e0143c}
 *{box-sizing:border-box}
 body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif;background:var(--bg);color:var(--tx);line-height:1.6}
-.wrap{max-width:860px;margin:0 auto;padding:24px 20px 60px}
+.wrap{max-width:860px;margin:0 auto;padding:24px 20px 110px}
 .top{display:flex;justify-content:flex-end}
 button{background:var(--ac);color:#fff;border:0;border-radius:8px;padding:8px 16px;font-size:15px;cursor:pointer}
 header{padding:48px 0 24px}
@@ -22,6 +25,11 @@ h2{margin:40px 0 14px;border-inline-start:4px solid var(--ac);padding-inline-sta
 .tag{display:inline-block;font-size:12px;border:1px solid var(--ac);color:var(--ac);border-radius:20px;padding:1px 10px;margin-bottom:8px}
 ul{margin:0;padding-inline-start:20px;color:var(--mut)}
 footer{margin-top:50px;color:var(--mut);font-size:14px}
+.card{transition:transform .2s,box-shadow .2s}.card:hover{transform:translateY(-4px);box-shadow:0 6px 20px rgba(224,20,60,.25)}
+.js .fade{opacity:0;transform:translateY(14px);transition:opacity .6s,transform .6s}.js .fade.in{opacity:1;transform:none}
+.now{color:var(--tx);border-inline-start:3px solid var(--ac);padding-inline-start:10px}
+.cta{position:fixed;inset-block-end:16px;inset-inline-end:16px;display:flex;gap:8px;z-index:9}.cta a{background:var(--ac);color:#fff;text-decoration:none;border-radius:24px;padding:10px 18px;font-size:15px;box-shadow:0 4px 14px rgba(0,0,0,.5)}
+@media(prefers-reduced-motion:reduce){.js .fade{opacity:1;transform:none;transition:none}.card{transition:none}}
 [data-l]{display:none}
 html[lang=en] [data-l=en],html[lang=ar] [data-l=ar]{display:block}
 html[lang=en] span[data-l=en],html[lang=ar] span[data-l=ar]{display:inline-block}
@@ -33,51 +41,63 @@ html[lang=en] span[data-l=en],html[lang=ar] span[data-l=ar]{display:inline-block
 <header>
 <h1>Omar Ashraf</h1>
 <div class="role"><span data-l="en">IT and Software Solutions Specialist</span><span data-l="ar">أخصائي حلول تقنية وبرمجيات</span></div>
-<p data-l="en">I am an Egyptian Information Systems graduate (2027). I build web projects and apps. I use AI tools to build faster and I keep improving my own coding. I also work with video and design tools.</p>
-<p data-l="ar">أنا خريج نظم معلومات من مصر (2027). أبني مواقع وتطبيقات. أستخدم أدوات الذكاء الاصطناعي للبناء بسرعة وأواصل تطوير مهاراتي في البرمجة. وأعمل أيضا في المونتاج والتصميم.</p>
+<p data-l="en">I am from Egypt and I study Information Systems (expected graduation 2027). I build web projects and apps. I use AI tools to build faster and I keep improving my own coding. I also work with video and design tools.</p>
+<p data-l="ar">أنا من مصر وأدرس نظم المعلومات (التخرج المتوقع 2027). أبني مواقع وتطبيقات. أستخدم أدوات الذكاء الاصطناعي للبناء بسرعة وأواصل تطوير مهاراتي في البرمجة. وأعمل أيضا في المونتاج والتصميم.</p>
 <p data-l="en">Technology and IT are my core. Since 2012 I have had a constant passion for software solutions and a little hardware.</p>
 <p data-l="ar">التقنية وتكنولوجيا المعلومات هي صلب اهتمامي. منذ 2012 وأنا شغوف دائما بحلول البرمجيات وبقليل من العتاد.</p>
+<p data-l="en" class="now">Right now: building Zonko and learning German.</p>
+<p data-l="ar" class="now">حاليا: أبني Zonko وأتعلم الألمانية.</p>
 </header>
 
 <h2><span data-l="en">Projects</span><span data-l="ar">المشاريع</span></h2>
 <div class="grid">
-<div class="card"><span class="tag">2026</span>
+<div class="card fade"><span class="tag">2026</span>
 <h3>Zonko</h3>
-<p data-l="en">A ride and delivery mobile app that I founded and built. Brand colors are black and crimson.</p>
-<p data-l="ar">تطبيق مشاوير وتوصيل أسسته وبنيته بنفسي. ألوان العلامة الأسود والقرمزي.</p></div>
-<div class="card"><span class="tag">Freelance</span>
+<p data-l="en">A ride and delivery mobile app that I founded and built. The idea is safer and faster trips.</p>
+<p data-l="ar">تطبيق مشاوير وتوصيل أسسته وبنيته بنفسي. فكرته رحلات أكثر أمانا وأسرع.</p></div>
+<div class="card fade"><span class="tag">Freelance</span>
 <h3 data-l="en">Online store</h3><h3 data-l="ar">متجر إلكتروني</h3>
 <p data-l="en">An online store built for a client as part of my freelance work since 2023.</p>
 <p data-l="ar">متجر إلكتروني نفذته لعميل ضمن عملي الحر منذ 2023.</p></div>
-<div class="card"><span class="tag">Freelance</span>
+<div class="card fade"><span class="tag">Freelance</span>
 <h3 data-l="en">Inventory and sales site</h3><h3 data-l="ar">موقع مخزون ومبيعات</h3>
 <p data-l="en">A site to track stock and sales. I have basic knowledge of ERP systems.</p>
 <p data-l="ar">موقع لمتابعة المخزون والمبيعات. لدي معرفة أساسية بأنظمة ERP.</p></div>
-<div class="card"><span class="tag">Freelance</span>
+<div class="card fade"><span class="tag">Freelance</span>
 <h3 data-l="en">Restaurant ordering platform</h3><h3 data-l="ar">منصة طلبات للمطاعم</h3>
 <p data-l="en">An ordering platform for restaurants and cafes including drive-thru.</p>
 <p data-l="ar">منصة طلبات للمطاعم والكافيهات تشمل خدمة السيارات.</p></div>
-<div class="card"><span class="tag">Video</span>
+<div class="card fade"><span class="tag">Video</span>
 <h3 data-l="en">Video and content</h3><h3 data-l="ar">فيديو ومحتوى</h3>
 <p data-l="en">Content creation and video editing with Premiere and Audition. A promo video for Zonko is in progress.</p>
 <p data-l="ar">صناعة محتوى ومونتاج بواسطة بريمير وأوديشن. فيديو ترويجي لزونكو قيد العمل.</p></div>
-<div class="card"><span class="tag">IT</span>
+<div class="card fade"><span class="tag">IT</span>
 <h3 data-l="en">IT and security cameras</h3><h3 data-l="ar">دعم تقني وكاميرات مراقبة</h3>
 <p data-l="en">IT specialist at a restaurant. I set up and manage CCTV cameras.</p>
 <p data-l="ar">أخصائي تقنية معلومات في مطعم. أركب وأدير كاميرات المراقبة.</p></div>
 </div>
 
 <h2><span data-l="en">Skills</span><span data-l="ar">المهارات</span></h2>
-<div class="card">
+<div class="card fade">
 <ul data-l="en"><li>AI-assisted web and app development</li><li>Linux and VS Code and cloud servers</li><li>Video and audio editing and Photoshop</li><li>CCTV setup and basic networking</li><li>Languages: Arabic (native) and English (intermediate) and German (beginner)</li></ul>
 <ul data-l="ar"><li>تطوير مواقع وتطبيقات بمساعدة الذكاء الاصطناعي</li><li>لينكس وVS Code وخوادم سحابية</li><li>مونتاج فيديو وصوت وفوتوشوب</li><li>تركيب كاميرات مراقبة وشبكات أساسية</li><li>اللغات: العربية (الأم) والإنجليزية (متوسط) والألمانية (مبتدئ)</li></ul>
 </div>
 
+<div class="cta"><a href="mailto:omarashraf.w2@gmail.com"><span data-l="en">Email me</span><span data-l="ar">راسلني</span></a><a href="https://wa.me/966549237083">WhatsApp</a></div>
 <footer>
 <p data-l="en">I am open to remote work and freelance projects. I can share more work and do a small test task.</p>
 <p data-l="ar">متاح للعمل عن بعد والمشاريع الحرة. أستطيع مشاركة المزيد من أعمالي وتنفيذ مهمة تجريبية صغيرة.</p>
-<p><span data-l="en">Contact:</span><span data-l="ar">للتواصل:</span> <a href="mailto:omarashraf.w2@gmail.com" style="color:#e0143c;display:inline">omarashraf.w2@gmail.com</a> | <a href="https://wa.me/966549237083" style="color:#e0143c;display:inline">WhatsApp</a></p>
+<p><a href="https://github.com/AAkrown00" style="color:#e0143c;display:inline">GitHub</a> | <span data-l="en">Contact:</span><span data-l="ar">للتواصل:</span> <a href="mailto:omarashraf.w2@gmail.com" style="color:#e0143c;display:inline">omarashraf.w2@gmail.com</a> | <a href="https://wa.me/966549237083" style="color:#e0143c;display:inline">WhatsApp</a></p>
 </footer>
 </div>
-<script>function t(){var h=document.documentElement;var a=h.lang==='en';h.lang=a?'ar':'en';h.dir=a?'rtl':'ltr'}</script>
+<script>
+document.documentElement.classList.add('js');
+function set(l){var h=document.documentElement;h.lang=l;h.dir=l==='ar'?'rtl':'ltr';try{localStorage.setItem('l',l)}catch(e){}}
+function t(){set(document.documentElement.lang==='en'?'ar':'en')}
+var sv=null;try{sv=localStorage.getItem('l')}catch(e){}
+set(sv||((navigator.language||'').slice(0,2)==='ar'?'ar':'en'));
+var io=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}})},{threshold:.1});
+document.querySelectorAll('.fade').forEach(function(c){io.observe(c)});
+setTimeout(function(){document.querySelectorAll('.fade').forEach(function(c){c.classList.add('in')})},1500);
+</script>
 </body></html>
